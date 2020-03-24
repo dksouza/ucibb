@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FundPercentage Snapshot 1`] = `
+<View>
+  <FundsRentabilityLegendItem
+    accessibilityLabel="Item descritivo do gráfico, index 0"
+    fundName="MULTI DINAMICO V"
+    index={0}
+    key="0"
+    percent={9.09}
+    value={277.3}
+    yieldValue={0}
+  />
+</View>
+`;

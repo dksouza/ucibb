@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FundsRentabilityLegendItem Snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "marginHorizontal": 32,
+      },
+      Object {
+        "marginTop": 15,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "marginTop": 3,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderRadius": 50,
+            "height": 16,
+            "width": 16,
+          },
+          Object {
+            "backgroundColor": "#00ACC1",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "marginLeft": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <FundPercentage
+        name="MULTI DINAMICO V"
+        percent={9.09}
+      />
+      <BBCurrencyValue
+        big={false}
+        extraSmall={false}
+        light={false}
+        normal={true}
+        small={false}
+        style={
+          Object {
+            "alignSelf": "flex-end",
+          }
+        }
+        textAfterValue=""
+        theme="dark"
+        value={277.3}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <BBText
+        accessibilityLabel="Quanto já rendeu? 0"
+        regular={true}
+        style={
+          Object {
+            "color": "rgba(0,0,0,0.54)",
+            "paddingTop": 0,
+          }
+        }
+        tinyText={true}
+      >
+        Quanto já rendeu?
+      </BBText>
+      <BBText
+        accessibilityLabel="Valor: 0"
+        regular={true}
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "color": "rgba(0,0,0,0.54)",
+            "paddingTop": 0,
+          }
+        }
+        tinyText={true}
+      >
+        R$ 0,00
+      </BBText>
+    </View>
+  </View>
+</View>
+`;

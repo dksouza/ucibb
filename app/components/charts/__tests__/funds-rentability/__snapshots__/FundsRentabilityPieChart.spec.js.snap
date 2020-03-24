@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FundsRentabilityPieChart Snapshot 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 32,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <BBPieChart
+      data={Array []}
+      innerLabel=""
+      showCurrencySymbol={true}
+      showInnerTotal={true}
+    />
+  </View>
+  <FundsRentabilityLegend
+    data={Array []}
+  />
+</View>
+`;

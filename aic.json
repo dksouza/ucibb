@@ -1,0 +1,9 @@
+{
+    "steps": [{
+        "name": "npm",
+        "projects": [{
+            "buildEnv": "aic-build-npm",
+            "dir": "/"
+        }]
+    }]
+}

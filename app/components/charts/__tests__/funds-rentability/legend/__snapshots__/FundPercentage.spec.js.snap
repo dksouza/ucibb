@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FundPercentage Snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <BBText
+    accessibilityLabel="Porcentagem que esse fundo ocupa no gráfico é de
+ 10 porcentos"
+    regular={true}
+    small={true}
+    style={
+      Object {
+        "color": "rgba(0,0,0,0.54)",
+        "paddingTop": 0,
+      }
+    }
+  >
+    10
+    %
+  </BBText>
+  <BBText
+    accessibilityLabel="Nome do fundo: 10"
+    small={true}
+    style={
+      Object {
+        "marginLeft": 4,
+        "paddingTop": 0,
+      }
+    }
+  >
+    Fundo
+  </BBText>
+</View>
+`;

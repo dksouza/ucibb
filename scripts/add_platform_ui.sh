@@ -1,0 +1,3 @@
+echo "Removendo cache do native-base"
+(cp "./scripts/connectStyle.js" "./node_modules/native-base-shoutem-theme/src/" && echo "Arquivo connectStyle atualizado.")|| echo "O native base não está na pasta node_modules"
+(cp "./scripts/platform.js" "./node_modules/native-base/dist/src/theme/variables/platform.js" && echo "Arquivo platform atualizado") || echo "O native base não está na pasta node_modules"
